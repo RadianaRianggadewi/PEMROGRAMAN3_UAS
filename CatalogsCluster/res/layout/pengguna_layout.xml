@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="20dp"
+        android:text="Nama"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="No. KTP"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="Alamat"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="No. HP"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="E-Mail"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView08"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView08"
+        android:layout_alignLeft="@+id/txtHp"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView08"
+        android:layout_alignBottom="@+id/TextView08"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignLeft="@+id/txtUser"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtKtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/txtNama"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignLeft="@+id/txtKtp"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/txtHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_alignLeft="@+id/txtAlamat"
+        android:paddingLeft="20dp"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView07"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="18dp"
+        android:text="Back" />
+
+</RelativeLayout>
